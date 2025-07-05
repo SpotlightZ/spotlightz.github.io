@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A comprehensive collection of my research and technical projects, showcasing expertise in machine learning, data analysis, and cloud computing.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -459,9 +459,9 @@ ninja.data = [{
           description: "A Feasibility Study Using Time Series Models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-birdtag-serverless-media-analysis-platform",
-          title: 'BirdTag Serverless Media Analysis Platform',
-          description: "AI-Driven Media Management System on AWS",
+            },},{id: "projects-knowledge-and-interaction-analysis-in-medical-training-dialogues",
+          title: 'Knowledge and Interaction Analysis in Medical Training Dialogues',
+          description: "Exploring Learning Performance through Computational Analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-residential-market-price-prediction-system",
@@ -469,31 +469,11 @@ ninja.data = [{
           description: "Property Price Prediction and Factor Analysis Using KNN Regression",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-birdtag-serverless-media-analysis-platform",
+          title: 'BirdTag - Serverless Media Analysis Platform',
+          description: "AI-Powered Media Management and Analysis Platform on AWS",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
