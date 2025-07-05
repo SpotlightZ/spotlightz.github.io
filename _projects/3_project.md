@@ -1,81 +1,106 @@
 ---
 layout: page
-title: BirdTag Serverless Media Analysis Platform
-description: AI-Driven Media Management System on AWS
-img: assets/img/birdtag_project.jpg
+title: Knowledge and Interaction Analysis in Medical Training Dialogues
+description: Exploring Learning Performance through Computational Analysis
+img: assets/img/medical_dialogue_project.jpg
 importance: 3
-category: development
+category: research
 related_publications: false
 ---
 
 ## Project Overview
 
-BirdTag is a serverless media analysis and management platform based on AWS cloud services, utilizing artificial intelligence technology to achieve automatic tagging and intelligent management of media files. The platform adopts a modern serverless architecture, providing users with an efficient and scalable media processing solution.
+This research project focuses on exploring learning performance through comprehensive knowledge and interaction analysis in medical training dialogues. The work aims to systematically integrate and analyze the dynamic interplay between cognitive processes and socio-emotional dynamics in medical education contexts.
 
-## System Architecture
+## Research Objectives
 
-### Serverless Design
-- **AWS Lambda**: Core computing service, handling media file uploads and analysis requests
-- **Amazon S3**: Media file storage, supporting large-scale data storage and access
-- **API Gateway**: RESTful API interface, providing a unified service access point
-- **DynamoDB**: NoSQL database, storing media metadata and tag information
+### Primary Research Goals
+- **Cognitive Process Analysis**: Systematic investigation of how medical students develop pathophysiological reasoning skills through dialogue-based interactions
+- **Socio-Emotional Dynamics**: Understanding the role of emotional and social factors in medical learning environments
+- **Computational Transformation**: Converting qualitative educational insights into quantifiable metrics for computational analysis
 
-### AI-Driven Auto-Tagging
-- **Computer Vision**: Automatic identification of objects, scenes, and activities in images
-- **Machine Learning Models**: Deep learning-based content analysis and classification
-- **Natural Language Processing**: Processing and analyzing text descriptions of media files
+### Research Innovation
+- **Interdisciplinary Approach**: Bridging dialogue-based learning, socio-emotional interaction, medical education, and computational analysis
+- **Methodological Development**: Creating detailed coding schemes to quantify abstract learning concepts
+- **AI-Enhanced Analysis**: Leveraging NLP and machine learning to process educational dialogue data
 
-## Core Functions
+## Research Methodology
 
-### Intelligent Media Analysis
-- **Automatic Tagging**: AI-driven automatic identification and tagging of media content
-- **Content Classification**: Intelligent categorization and organization based on media content
-- **Metadata Extraction**: Automatic extraction of technical and content metadata from media files
+### Data Collection and Analysis
+- **Medical Training Dialogues**: Collection of authentic medical education conversations
+- **Multi-level Coding**: Systematic annotation of cognitive and emotional indicators
+- **Longitudinal Analysis**: Tracking learning progress over time through dialogue patterns
 
-### Media Management Services
-- **RESTful API**: Providing a complete media management API interface
-- **Batch Processing**: Supporting large-scale batch uploading and processing of media files
-- **Real-time Processing**: Triggering automatic analysis and tagging when files are uploaded
+### Computational Methods
+- **Natural Language Processing**: Advanced text analysis for educational content
+- **Machine Learning**: Pattern recognition in learning behaviors and outcomes
+- **Epistemic Network Analysis (ENA)**: Mapping knowledge connections and cognitive structures
+- **Sequential Pattern Mining (SPM)**: Identifying learning sequence patterns
 
-### User Interface
-- **Responsive Design**: Modern frontend interface based on Vue3 and TailwindCSS
-- **Real-time Feedback**: Real-time updates and notifications of media processing status
-- **Intuitive Operation**: User-friendly media browsing and management interface
+### Process Modeling
+- **Cluster Analysis**: Grouping similar learning patterns and behaviors
+- **Sequence Analysis**: Understanding temporal aspects of learning processes
+- **Process Mining**: Extracting learning workflows from dialogue data
 
-## Technology Stack
+## Key Research Contributions
 
-### Backend Architecture
-- **AWS Lambda**: Serverless computing platform
-- **Python**: Primary programming language
-- **AWS SDK**: AWS service integration
-- **Serverless Framework**: Deployment and management tools
+### Theoretical Advances
+- **Learning Process Modeling**: New frameworks for understanding medical education through dialogue analysis
+- **Cognitive-Emotional Integration**: Comprehensive models linking cognitive development with emotional dynamics
+- **Educational Assessment**: Novel approaches to evaluating learning effectiveness in dialogue-based contexts
 
-### Frontend Development
-- **Vue 3**: Modern JavaScript framework
-- **TailwindCSS**: Utility-first CSS framework
-- **TypeScript**: Type-safe JavaScript superset
+### Methodological Innovation
+- **Quantitative Coding Schemes**: Transforming qualitative educational insights into measurable indicators
+- **AI-Enhanced Analysis**: Scalable computational methods for educational research
+- **Multi-modal Assessment**: Combining cognitive and emotional metrics for comprehensive evaluation
 
-### Cloud Services
-- **Amazon S3**: Object storage service
-- **AWS API Gateway**: API management and publishing
-- **Amazon DynamoDB**: NoSQL database
-- **AWS IAM**: Identity and Access Management
+## Technical Implementation
 
-## Project Features
+### Data Processing Pipeline
+- **Dialogue Preprocessing**: Cleaning and structuring conversational data
+- **Feature Engineering**: Extracting meaningful indicators from raw dialogue text
+- **Annotation Systems**: Systematic coding of educational and emotional content
 
-### Scalability
-- **Auto Scaling**: Automatically adjusting computing resources based on load
-- **Cost Optimization**: Pay-as-you-go model, no need for pre-provisioned server resources
-- **High Availability**: Supported by AWS global infrastructure
+### Machine Learning Models
+- **Classification**: Identifying learning states and cognitive patterns
+- **Regression**: Predicting learning outcomes and performance metrics
+- **Clustering**: Discovering hidden patterns in student learning behaviors
 
-### Performance Optimization
-- **Edge Computing**: Utilizing AWS edge nodes to improve response speed
-- **Caching Strategy**: Intelligent caching to improve data access efficiency
-- **Parallel Processing**: Multi-task parallel processing to enhance overall performance
+### Analytical Tools
+- **Python Ecosystem**: NumPy, Pandas, Scikit-learn for data processing
+- **NLP Libraries**: NLTK, spaCy for text analysis
+- **Visualization**: Matplotlib, Seaborn for data visualization
+- **Statistical Analysis**: R for advanced statistical modeling
 
-## Application Value
+## Expected Outcomes
 
-This project demonstrates the application potential of modern cloud computing and artificial intelligence technologies in the field of media processing. By combining serverless architecture and AI technology, the BirdTag platform provides an innovative solution for intelligent management of media content, offering important reference value for the development of the digital media industry.
+### Research Impact
+- **Educational Technology**: Advancing AI-driven tools for medical education
+- **Learning Analytics**: Contributing to the field of educational data science
+- **Medical Training**: Improving effectiveness of medical education programs
+
+### Practical Applications
+- **Assessment Tools**: Automated evaluation of learning progress in medical training
+- **Personalized Learning**: Adaptive educational systems based on dialogue analysis
+- **Quality Assurance**: Systematic evaluation of medical education programs
+
+## Future Directions
+
+### Expansion Opportunities
+- **Multi-institutional Studies**: Scaling research across different medical schools
+- **Cross-cultural Analysis**: Examining learning patterns across cultural contexts
+- **Technology Integration**: Developing AI tutoring systems for medical education
+
+### Methodological Development
+- **Advanced NLP**: Incorporating large language models for deeper analysis
+- **Real-time Analysis**: Developing systems for immediate learning feedback
+- **Multimodal Integration**: Combining text, audio, and video analysis
+
+## Research Significance
+
+This project represents a pioneering effort to apply computational methods to understand complex learning processes in medical education. By systematically analyzing dialogue-based interactions, it provides new insights into how medical students develop critical thinking skills and emotional competencies. The research contributes to both educational technology and medical education, offering evidence-based approaches to improve training effectiveness and student outcomes.
+
+The work demonstrates the potential of interdisciplinary research combining education, psychology, and computer science to address real-world challenges in professional training programs.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
