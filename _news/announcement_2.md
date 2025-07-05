@@ -1,9 +1,12 @@
 ---
 layout: post
-date: 2024-10-01 14:30:00+1000
-inline: false
+title: Research Progress Update
+date: 2024-10-15 11:00:00-0400
+inline: true
 related_posts: false
 ---
+
+Making significant progress on my research project "Exploring Learning Performance through Knowledge and Interaction Analysis in Medical Training Dialogues" under supervision of Dr. Guanliang Chen. Currently developing advanced feature engineering techniques for dialogue analysis using XGBoost and SHAP methodologies. 🔬
 
 ## Significant Research Progress
 

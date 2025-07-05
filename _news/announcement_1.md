@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2024-07-15 10:00:00+1000
+title: Started Master's Program at Monash University
+date: 2024-07-01 12:00:00-0400
 inline: true
 related_posts: false
 ---
 
-Started pursuing a Master of Information Technology (Research Pathway) at Monash University, focusing on dialogue-based learning and computational analysis research.
+Excited to begin my Master of Information Technology (Research Pathway) journey at Monash University, focusing on dialogue-based learning and computational analysis research! 🎓

@@ -2,11 +2,13 @@
   type: map
   contents:
     - name: Full Name
-      value: Yiting Zheng
+      value: Yiting Zheng (郑艺婷)
     - name: Email
       value: dd.zheng001@gmail.com
-    - name: Research Focus
-      value: Dialogue-Based Learning, Computational Analysis, Machine Learning
+    - name: Location
+      value: Victoria, Australia
+    - name: Status
+      value: PhD Applicant, Master's Student at Monash University
 
 - title: Education
   type: time_table
@@ -16,68 +18,74 @@
       year: July 2024 - Present
       description:
         - "WAM: 82/100, GPA: 3.5/4.0"
-        - "Key Courses: IT Research Methods (87/100, HD), Foundations of Data Science (90/100, HD), Cloud Computing and Security (85/100, HD)"
+        - "Main Courses: IT Research Methods (87/100, HD), Foundations of Data Science (90/100, HD), Cloud Computing and Security (85/100, HD)"
     - title: Bachelor of Computer Science and Technology
       institution: College of Online Education, Nankai University
-      year: September 2017 - June 2021
+      year: Sept. 2017 - Jun. 2021
       description:
         - "WAM: 87.57"
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: Knowledge and Interaction Analysis in Medical Training Dialogues
-      institution: Monash University, Supervised by Guanliang Chen
-      year: 2024 - Present
+    - title: Exploring Learning Performance through Knowledge and Interaction Analysis in Medical Training Dialogues
+      institution: Monash University, Clayton
+      year: Present
       description:
-        - Systematically integrating and analyzing the dynamic interplay between cognitive processes and socio-emotional dynamics in medical training dialogues
-        - Designing detailed coding schemes to transform qualitative insights like "pathophysiological reasoning" into quantifiable indicators for NLP processing
-        - Core Research Methods: NLP, ML, Epistemic Network Analysis (ENA), Sequential Pattern Mining (SPM), Process Modeling, Cluster Analysis
+        - "Status: In preparation"
+        - "Supervisor: Guanliang Chen"
+        - "Focus: Systematic integration and analysis of the dynamic interplay between cognitive processes and socio-emotional dynamics in medical training dialogues"
+        - "Goal: Transform qualitative research insights into quantifiable indicators through detailed coding schemes and multi-level computational analysis"
+        - "Methods: NLP, ML, Epistemic Network Analysis (ENA), Sequential Pattern Mining (SPM), Process Modelling, Cluster Analysis, Sequence Analysis/Process Mining"
 
 - title: Project Experience
   type: time_table
   contents:
     - title: Comprehensive Feature Engineering and Predictive Analysis of FLoRA Dialogue Usefulness Scores
-      institution: Monash University, Supervised by Guanliang Chen
-      year: 2024
+      institution: Monash University, Clayton
+      year: Present
       description:
-        - Engineered both structural and semantic features from raw chatbot-student dialogue data to model interaction quality
-        - Developed and optimized an XGBoost model using grid search and cross-validation, achieving a 20.79% improvement in RMSE and a 22% improvement in MAE compared to baseline
-        - Employed SHAP to provide both local and global interpretability for model predictions
-        - Core Tech: XGBoost, SHAP, Scikit-learn, PCA, TF-IDF, Linear Regression, Random Forest
-    - title: Hospital Discharge Trend Prediction and Resource Optimization Feasibility Study
-      institution: Monash University, Supervised by Guanliang Chen
-      year: 2024
+        - "Supervisor: Guanliang Chen"
+        - "Engineered and integrated structural (turn count, word ratio) and semantic (TF-IDF, weighted keywords, PCA) features from raw chatbot-student dialogue data"
+        - "Developed XGBoost model achieving 20.79% improvement in RMSE and 22% improvement in MAE compared to baseline"
+        - "Employed SHAP for both local and global model interpretability"
+        - "Technologies: XGBoost, SHAP, Scikit-learn, PCA, TF-IDF, Linear Regression, Random Forest"
+    - title: Hospital Discharge Trend Prediction and Resource Optimization
+      institution: Monash University, Clayton
+      year: Present
       description:
-        - Integrated and preprocessed large-scale heterogeneous data, combining hospital financial reports (CMS) with public health surveillance data (CDC)
-        - Designed and compared multiple time-series models, including ARIMA and enhanced Linear Regression models
-        - Achieved high predictive accuracy with a MAPE of 0.98%, significantly outperforming baseline models
-        - Core Tech: R, auto.arima, lm, ggplot2, Time-Series Analysis, EDA
-    - title: Residential Market Price Prediction and Analysis Using K-Nearest Neighbors Regression
-      institution: Monash University, Supervised by Guanliang Chen
-      year: 2024
+        - "Supervisor: Guanliang Chen"
+        - "Integrated large-scale heterogeneous data from hospital financial reports (CMS) and public health surveillance data (CDC)"
+        - "Designed multiple time-series models including ARIMA and enhanced Linear Regression with exogenous features"
+        - "Achieved MAPE of 0.98% with feature-enhanced model"
+        - "Technologies: R, auto.arima, lm, ggplot2, Time-Series Analysis, EDA"
+    - title: Residential Market Price Prediction Using K-Nearest Neighbors Regression
+      institution: Monash University, Clayton
+      year: Present
       description:
-        - Built and tuned a KNN Regression model for property price prediction, implementing advanced feature engineering using regular expressions
-        - Ensured model robustness through rigorous 10-fold cross-validation and systematic K-value grid search
-        - Core Tech: R, caret, grepl, KNN, Regex, Cross-Validation
-    - title: BirdTag: A Serverless Media Analysis and Management Platform on AWS
-      institution: Monash University, Supervised by Guanliang Chen
-      year: 2024
+        - "Supervisor: Guanliang Chen"
+        - "Built KNN Regression model with advanced feature engineering using regular expressions"
+        - "Implemented rigorous 10-fold cross-validation and systematic K-value grid search"
+        - "Technologies: R, caret, grepl, KNN, Regex, Cross-Validation"
+    - title: BirdTag - Serverless Media Analysis and Management Platform
+      institution: Monash University, Clayton
+      year: Present
       description:
-        - Designed and deployed a scalable, serverless cloud application utilizing AWS Lambda and Python
-        - Implemented AI-driven auto-tagging of media files upon S3 upload and provided comprehensive media management via RESTful API
-        - Core Tech: Python, AWS, Serverless Architecture, RESTful APIs, Vue3, TailwindCSS
+        - "Supervisor: Guanliang Chen"
+        - "Designed scalable, serverless cloud application with AI-driven auto-tagging"
+        - "Implemented comprehensive media management service via RESTful API"
+        - "Technologies: Python, AWS, Serverless Architecture, RESTful APIs, Vue3, TailwindCSS"
 
 - title: Work Experience
   type: time_table
   contents:
     - title: Full-Stack Development Engineer
       institution: Beijing Corefire Technology Co.
-      year: November 2020 - June 2024
+      year: Nov. 2020 - Jun. 2024
       description:
-        - Executed full-stack development for multi-platform applications, utilizing Java for backend services and Vue3, TypeScript for frontend interfaces
-        - Engineered backend services and data pipelines, building RESTful APIs to power data-driven features such as merchant revenue analysis
-        - Transformed complex business data into interactive visualization dashboards using Echarts and Antv to support merchant decision-making
+        - "Executed full-stack development for multi-platform applications using Java for backend services and Vue3, TypeScript for front-end interfaces"
+        - "Engineered backend services and data pipelines, building RESTful APIs to power data-driven features such as merchant revenue analysis"
+        - "Transformed complex business data into interactive visualization dashboards using Echarts and Antv to support merchant decision-making"
 
 - title: Technical Skills
   type: nested_list
@@ -102,7 +110,7 @@
         - Sequential Pattern Mining (SPM)
         - Cluster Analysis
         - TF-IDF
-        - Principal Component Analysis (PCA)
+        - PCA
     - title: Cloud & Engineering
       items:
         - AWS
@@ -122,29 +130,23 @@
         - Antv
         - Git
 
-- title: Honors & Certifications
-  type: time_table
+- title: Certifications
+  type: list
   contents:
-    - year: 2024
-      items:
-        - Project Management Professional (PMP) Certification
-        - Patent: Medical Multi-Chamber Fully Automatic Cleaning Machine (Patent No.: ZL 202430714714.3)
+    - Project Management Professional (PMP) Certification
+
+- title: Patents
+  type: list
+  contents:
+    - "Heng, Deyu, and Zheng, Yiting. (2024). 医用多舱全自动清洗机 (Medical multi-chamber fully automatic cleaning machine). China Patent No. ZL 202430714714.3."
 
 - title: Research Interests
-  type: nested_list
+  type: list
   contents:
-    - title: Dialogue-Based Learning Analysis
-      items:
-        - Cognitive process analysis in medical training dialogues
-        - Socio-emotional dynamics modeling
-        - Computational analysis in educational technology
-    - title: Natural Language Processing
-      items:
-        - Transformation of qualitative insights into quantitative metrics
-        - Sequential pattern mining
-        - Text feature engineering
-    - title: Machine Learning Applications
-      items:
-        - Predictive model development
-        - Time series analysis
-        - Explainable AI (XAI)
+    - Dialogue-Based Learning Analysis
+    - Natural Language Processing
+    - Machine Learning and Predictive Modeling
+    - Educational Technology
+    - Computational Analysis of Learning Processes
+    - Time Series Analysis and Prediction
+    - Cloud Computing and Serverless Architecture
