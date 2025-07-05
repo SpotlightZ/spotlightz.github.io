@@ -1,12 +1,81 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: BirdTag Serverless Media Analysis Platform
+description: AI-Driven Media Management System on AWS
+img: assets/img/birdtag_project.jpg
 importance: 3
-category: work
+category: development
+related_publications: false
 ---
+
+## Project Overview
+
+BirdTag is a serverless media analysis and management platform based on AWS cloud services, utilizing artificial intelligence technology to achieve automatic tagging and intelligent management of media files. The platform adopts a modern serverless architecture, providing users with an efficient and scalable media processing solution.
+
+## System Architecture
+
+### Serverless Design
+- **AWS Lambda**: Core computing service, handling media file uploads and analysis requests
+- **Amazon S3**: Media file storage, supporting large-scale data storage and access
+- **API Gateway**: RESTful API interface, providing a unified service access point
+- **DynamoDB**: NoSQL database, storing media metadata and tag information
+
+### AI-Driven Auto-Tagging
+- **Computer Vision**: Automatic identification of objects, scenes, and activities in images
+- **Machine Learning Models**: Deep learning-based content analysis and classification
+- **Natural Language Processing**: Processing and analyzing text descriptions of media files
+
+## Core Functions
+
+### Intelligent Media Analysis
+- **Automatic Tagging**: AI-driven automatic identification and tagging of media content
+- **Content Classification**: Intelligent categorization and organization based on media content
+- **Metadata Extraction**: Automatic extraction of technical and content metadata from media files
+
+### Media Management Services
+- **RESTful API**: Providing a complete media management API interface
+- **Batch Processing**: Supporting large-scale batch uploading and processing of media files
+- **Real-time Processing**: Triggering automatic analysis and tagging when files are uploaded
+
+### User Interface
+- **Responsive Design**: Modern frontend interface based on Vue3 and TailwindCSS
+- **Real-time Feedback**: Real-time updates and notifications of media processing status
+- **Intuitive Operation**: User-friendly media browsing and management interface
+
+## Technology Stack
+
+### Backend Architecture
+- **AWS Lambda**: Serverless computing platform
+- **Python**: Primary programming language
+- **AWS SDK**: AWS service integration
+- **Serverless Framework**: Deployment and management tools
+
+### Frontend Development
+- **Vue 3**: Modern JavaScript framework
+- **TailwindCSS**: Utility-first CSS framework
+- **TypeScript**: Type-safe JavaScript superset
+
+### Cloud Services
+- **Amazon S3**: Object storage service
+- **AWS API Gateway**: API management and publishing
+- **Amazon DynamoDB**: NoSQL database
+- **AWS IAM**: Identity and Access Management
+
+## Project Features
+
+### Scalability
+- **Auto Scaling**: Automatically adjusting computing resources based on load
+- **Cost Optimization**: Pay-as-you-go model, no need for pre-provisioned server resources
+- **High Availability**: Supported by AWS global infrastructure
+
+### Performance Optimization
+- **Edge Computing**: Utilizing AWS edge nodes to improve response speed
+- **Caching Strategy**: Intelligent caching to improve data access efficiency
+- **Parallel Processing**: Multi-task parallel processing to enhance overall performance
+
+## Application Value
+
+This project demonstrates the application potential of modern cloud computing and artificial intelligence technologies in the field of media processing. By combining serverless architecture and AI technology, the BirdTag platform provides an innovative solution for intelligent management of media content, offering important reference value for the development of the digital media industry.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

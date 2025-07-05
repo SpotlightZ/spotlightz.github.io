@@ -2,96 +2,149 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Yiting Zheng
+    - name: Email
+      value: dd.zheng001@gmail.com
+    - name: Research Focus
+      value: Dialogue-Based Learning, Computational Analysis, Machine Learning
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Information Technology - Research Pathway
+      institution: Monash University, Australia
+      year: July 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "WAM: 82/100, GPA: 3.5/4.0"
+        - "Key Courses: IT Research Methods (87/100, HD), Foundations of Data Science (90/100, HD), Cloud Computing and Security (85/100, HD)"
+    - title: Bachelor of Computer Science and Technology
+      institution: College of Online Education, Nankai University
+      year: September 2017 - June 2021
       description:
-        - Description 1.
-        - Description 2.
+        - "WAM: 87.57"
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Knowledge and Interaction Analysis in Medical Training Dialogues
+      institution: Monash University, Supervised by Guanliang Chen
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Systematically integrating and analyzing the dynamic interplay between cognitive processes and socio-emotional dynamics in medical training dialogues
+        - Designing detailed coding schemes to transform qualitative insights like "pathophysiological reasoning" into quantifiable indicators for NLP processing
+        - Core Research Methods: NLP, ML, Epistemic Network Analysis (ENA), Sequential Pattern Mining (SPM), Process Modeling, Cluster Analysis
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Project Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Comprehensive Feature Engineering and Predictive Analysis of FLoRA Dialogue Usefulness Scores
+      institution: Monash University, Supervised by Guanliang Chen
+      year: 2024
+      description:
+        - Engineered both structural and semantic features from raw chatbot-student dialogue data to model interaction quality
+        - Developed and optimized an XGBoost model using grid search and cross-validation, achieving a 20.79% improvement in RMSE and a 22% improvement in MAE compared to baseline
+        - Employed SHAP to provide both local and global interpretability for model predictions
+        - Core Tech: XGBoost, SHAP, Scikit-learn, PCA, TF-IDF, Linear Regression, Random Forest
+    - title: Hospital Discharge Trend Prediction and Resource Optimization Feasibility Study
+      institution: Monash University, Supervised by Guanliang Chen
+      year: 2024
+      description:
+        - Integrated and preprocessed large-scale heterogeneous data, combining hospital financial reports (CMS) with public health surveillance data (CDC)
+        - Designed and compared multiple time-series models, including ARIMA and enhanced Linear Regression models
+        - Achieved high predictive accuracy with a MAPE of 0.98%, significantly outperforming baseline models
+        - Core Tech: R, auto.arima, lm, ggplot2, Time-Series Analysis, EDA
+    - title: Residential Market Price Prediction and Analysis Using K-Nearest Neighbors Regression
+      institution: Monash University, Supervised by Guanliang Chen
+      year: 2024
+      description:
+        - Built and tuned a KNN Regression model for property price prediction, implementing advanced feature engineering using regular expressions
+        - Ensured model robustness through rigorous 10-fold cross-validation and systematic K-value grid search
+        - Core Tech: R, caret, grepl, KNN, Regex, Cross-Validation
+    - title: BirdTag: A Serverless Media Analysis and Management Platform on AWS
+      institution: Monash University, Supervised by Guanliang Chen
+      year: 2024
+      description:
+        - Designed and deployed a scalable, serverless cloud application utilizing AWS Lambda and Python
+        - Implemented AI-driven auto-tagging of media files upon S3 upload and provided comprehensive media management via RESTful API
+        - Core Tech: Python, AWS, Serverless Architecture, RESTful APIs, Vue3, TailwindCSS
 
-- title: Honors and Awards
+- title: Work Experience
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Full-Stack Development Engineer
+      institution: Beijing Corefire Technology Co.
+      year: November 2020 - June 2024
+      description:
+        - Executed full-stack development for multi-platform applications, utilizing Java for backend services and Vue3, TypeScript for frontend interfaces
+        - Engineered backend services and data pipelines, building RESTful APIs to power data-driven features such as merchant revenue analysis
+        - Transformed complex business data into interactive visualization dashboards using Echarts and Antv to support merchant decision-making
 
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python
+        - R
+        - JavaScript/TypeScript
+        - Java
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
+        - XGBoost
+        - Random Forest
+        - Linear Regression
+        - KNN
+        - ARIMA
+        - SHAP
+    - title: Analytics & NLP
+      items:
+        - Epistemic Network Analysis (ENA)
+        - Sequential Pattern Mining (SPM)
+        - Cluster Analysis
+        - TF-IDF
+        - Principal Component Analysis (PCA)
+    - title: Cloud & Engineering
+      items:
+        - AWS
+        - Serverless Architecture
+        - Node.js
+        - RESTful APIs
+        - Vue3
+        - mpx
+    - title: Databases & Tools
+      items:
+        - MySQL
+        - Oracle
+        - Postman
+        - Figma
+        - QGIS
+        - Echarts
+        - Antv
+        - Git
 
-- title: Other Interests
-  type: list
+- title: Honors & Certifications
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 2024
+      items:
+        - Project Management Professional (PMP) Certification
+        - Patent: Medical Multi-Chamber Fully Automatic Cleaning Machine (Patent No.: ZL 202430714714.3)
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Dialogue-Based Learning Analysis
+      items:
+        - Cognitive process analysis in medical training dialogues
+        - Socio-emotional dynamics modeling
+        - Computational analysis in educational technology
+    - title: Natural Language Processing
+      items:
+        - Transformation of qualitative insights into quantitative metrics
+        - Sequential pattern mining
+        - Text feature engineering
+    - title: Machine Learning Applications
+      items:
+        - Predictive model development
+        - Time series analysis
+        - Explainable AI (XAI)
