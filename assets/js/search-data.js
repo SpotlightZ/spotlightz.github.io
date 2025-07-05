@@ -440,35 +440,33 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-excited-to-begin-my-master-of-information-technology-research-pathway-journey-at-monash-university-focusing-on-dialogue-based-learning-and-computational-analysis-research",
+          title: 'Excited to begin my Master of Information Technology (Research Pathway) journey at Monash...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-making-significant-progress-on-my-research-project-exploring-learning-performance-through-knowledge-and-interaction-analysis-in-medical-training-dialogues-under-supervision-of-dr-guanliang-chen-currently-developing-advanced-feature-engineering-techniques-for-dialogue-analysis-using-xgboost-and-shap-methodologies-significant-research-progress-i-am-pleased-to-announce-that-we-have-made-significant-progress-in-our-research-on-medical-training-dialogue-analysis-key-achievements-flora-dialogue-analysis-project-successfully-developed-a-dialogue-usefulness-prediction-model-based-on-xgboost-achieving-a-20-79-improvement-in-rmse-and-a-22-improvement-in-mae-compared-to-the-baseline-model-hospital-trend-prediction-research-constructed-a-time-series-prediction-model-that-reached-a-mape-of-0-98-providing-data-support-for-healthcare-resource-optimization-birdtag-platform-completed-the-development-of-a-serverless-media-analysis-platform-on-aws-implementing-ai-driven-automatic-media-tagging-functionality-research-method-innovation-during-the-research-process-we-paid-particular-attention-to-transforming-qualitative-research-insights-into-computable-quantitative-indicators-which-is-significant-for-advancing-interdisciplinary-research-in-educational-technology-and-medical-education-next-steps-we-are-currently-preparing-to-organize-some-of-the-research-findings-into-academic-papers-and-continue-to-explore-applications-of-epistemic-network-analysis-ena-and-sequential-pattern-mining-spm-in-medical-education-for-detailed-project-information-please-refer-to-the-project-pages",
+          title: 'Making significant progress on my research project “Exploring Learning Performance through Knowledge and...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-proud-to-announce-that-my-patent-for-medical-multi-chamber-fully-automatic-cleaning-machine-patent-no-zl-202430714714-3-has-been-granted-in-china-demonstrating-innovation-in-medical-device-technology",
+          title: 'Proud to announce that my patent for “Medical Multi-Chamber Fully Automatic Cleaning Machine”...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-flora-dialogue-usefulness-score-prediction",
+          title: 'FLoRA Dialogue Usefulness Score Prediction',
+          description: "Comprehensive Feature Engineering and XGBoost Model Optimization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-hospital-discharge-trend-prediction-and-resource-optimization",
+          title: 'Hospital Discharge Trend Prediction and Resource Optimization',
+          description: "A Feasibility Study Using Time Series Models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-birdtag-serverless-media-analysis-platform",
+          title: 'BirdTag Serverless Media Analysis Platform',
+          description: "AI-Driven Media Management System on AWS",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-residential-market-price-prediction-system",
+          title: 'Residential Market Price Prediction System',
+          description: "Property Price Prediction and Factor Analysis Using KNN Regression",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
@@ -501,14 +499,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("mailto:%64%64.%7A%68%65%6E%67%30%30%31@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-rss',
@@ -516,13 +507,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
